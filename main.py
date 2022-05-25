@@ -22,7 +22,7 @@ PARENT_DIRECTORY = os.getcwd().replace("\\", "/")
 
 os.chdir("images")
 
-SCALE = 1  # Has to be 1 or 2 # 1 does not work as intended
+SCALE = 2  # Has to be 1 or 2 # 1 does not work as intended
 
 global yellow
 yellow = [255, 204, 0]
