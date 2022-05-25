@@ -256,7 +256,7 @@ class Pacman(pygame.sprite.Sprite):
 		ghost_positions.append(orangesprite.return_position())
 		ghost_positions.append(pinksprite.return_position())
 
-		if self.get_position() in ghost_positions and False:
+		if self.get_position() in ghost_positions:
 			pos = ghost_positions.index(self.get_position())
 			if pos == 0:
 				return "red"
