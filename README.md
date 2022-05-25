@@ -1,1 +1,3 @@
 # Pacman
+
+Run `main.py`
